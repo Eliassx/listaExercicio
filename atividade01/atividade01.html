@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atividade01.css">
+    <title>Atividade 01</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Video Locadora JS</h1>
+    
+        <hr>
+
+        <form class="form">
+            <section class="info-moovie">
+                <div class="moovie">
+                    <label for="title-moovie">Título do Filme:</label>
+                    <input type="text" name="text" id="text" required>
+                </div>
+
+                <div class="time">
+                    <label for="time">Duração (min):</label>
+                    <input type="number" name="time" id="time" required>
+                </div>
+            </section>
+
+            <section class="button">
+                <button type="button" id="btn" onclick="converter()">Converter em Horas e Minutos</button>
+            </section>
+
+        </form>
+        <section class="converter"> 
+            <p id="result-moovie"></p>
+            <p id="result-time"></p>
+        </section>
+    </div>
+    
+
+    <script src="atividade01.js"></script>
+</body>
+</html>

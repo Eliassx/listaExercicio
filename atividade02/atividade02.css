@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+.container{   
+    background-color: rgb(32, 30, 30);
+    color: white;
+    border-radius: 10px;
+
+    height: 350px;
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+hr{
+    width: 20rem;
+    margin-bottom: 2rem;
+}
+.info-car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.car{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.price{
+    margin-bottom: .6rem;
+}
+#price{
+    margin-bottom: .6rem;
+}
+#btn{
+    width: 290px;
+    padding: .5rem;
+    
+    background-color: green;
+    color: white;
+    
+    cursor: pointer;
+}
+.converter{
+    margin-top: 1rem;
+}
+#result-car{
+    margin-bottom: 0.4rem;
+}
+#result-price{
+    margin-bottom: 0.4rem;
+}
