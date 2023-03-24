@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atividade03.css">
     <title>Atividade 03</title>
 </head>
 <body>
@@ -13,20 +14,20 @@
         <hr>
 
         <form class="form">
-            <section class="info-car">
-                <div class="car">
-                    <label for="title-car">Buffet por Quilo R$:</label>
+            <section class="info-restaurant">
+                <div class="restaurant">
+                    <label for="title-restaurant">Buffet por Quilo R$:</label>
                     <input type="number" name="price" id="price" required>
                 </div>
 
-                <div class="price">
-                    <label for="price">Consumo do Cliente (gr):</label>
+                <div class="cosumption">
+                    <label for="cosumption">Consumo do Cliente (gr):</label>
                     <input type="number" name="weight" id="weight" required>
                 </div>
             </section>
 
             <section class="button">
-                <button type="button" id="btn" onclick="converter()"></button>
+                <button type="button" id="btn" onclick="converter()">Calcular preço</button>
             </section>
 
         </form>
@@ -35,7 +36,7 @@
         </section>
     </div>
     
-    <script src="atividade02.js"></script>
+    <script src="atividade03.js"></script>
     </div>
 </body>
 </html>

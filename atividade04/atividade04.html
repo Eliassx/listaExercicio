@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atividade04.css">
+    <title>Atividade 04</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Farmácia JS</h1>
+    
+        <hr>
+
+        <form class="form">
+            <section class="info-pharmacy">
+                <div class="pharmacy">
+                    <label for="title-medicine">Medicamento:</label>
+                    <input type="text" name="medicine" id="medicine" required>
+                </div>
+
+                <div class="price">
+                    <label for="price">Preço R$:</label>
+                    <input type="number" name="price" id="price" required>
+                </div>
+            </section>
+
+            <section class="button">
+                <button type="button" id="btn" onclick="converter()">Mostrar Promoção</button>
+            </section>
+
+        </form>
+        <section class="converter"> 
+            <p id="result-title"></p>
+            <p id="result-price"></p>
+        </section>
+    </div>
+    
+    <script src="atividade04.js"></script>
+    </div>
+</body>
+</html>
